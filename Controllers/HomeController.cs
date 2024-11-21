@@ -1,4 +1,5 @@
 using ControleFinanceiro.Models;
+using ControleFinanceiro.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
