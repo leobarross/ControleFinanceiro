@@ -14,9 +14,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddNotyf(config =>
 {
-    config.DurationInSeconds = 10;
-    config.IsDismissable = true;
-    config.Position = NotyfPosition.BottomRight;
+    config.DurationInSeconds = 5;
+    config.IsDismissable = false;
+    config.Position = NotyfPosition.TopRight;
 });
 
 builder.Services.AddScoped<CategoriaService>();
