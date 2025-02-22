@@ -1,0 +1,22 @@
+﻿# Arquivos do Visual Studio
+.vs/
+*.suo
+*.user
+*.cache
+*.csproj.user
+*.dbmdl
+*.jfm
+
+# Pastas do Build
+bin/
+obj/
+out/
+
+# Dependências do NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Logs e arquivos temporários
+*.log
+logs/
